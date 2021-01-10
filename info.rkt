@@ -23,3 +23,5 @@
             (framework:syntax-color:scheme:error
              #(242 80 65))))
           (name . "Mini"))))
+(define scribblings '(("scribblings/mini-theme.scrbl" ())))
+(define pkg-desc "A DrRacket theme")
