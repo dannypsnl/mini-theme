@@ -8,16 +8,16 @@
              #(131 154 204))
             (drracket:real-eval-print-loop:value-color
              #(131 154 204))
+            (framework:syntax-color:scheme:keyword
+             #(131 154 204))
+            (framework:syntax-color:scheme:hash-colon-keyword
+             #(131 154 204))
             (framework:syntax-color:scheme:comment
              #(160 160 160) italic)
             (framework:syntax-color:scheme:parenthesis
              #(200 200 200))
-            (framework:syntax-color:scheme:keyword
-             #(95 85 187))
-            (framework:syntax-color:scheme:hash-colon-keyword
-             #(95 85 187))
             (framework:syntax-color:scheme:symbol
-             #(28 25 24) bold)
+             #(28 25 24) italic)
             (drracket:check-syntax:unused-require
              #(242 80 65))
             (framework:syntax-color:scheme:error
