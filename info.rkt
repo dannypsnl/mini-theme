@@ -25,5 +25,6 @@
           (name . "Mini"))))
 
 (define deps '("base"))
+(define build-deps '("scribble-lib"))
 (define scribblings '(("scribblings/mini-theme.scrbl" ())))
 (define pkg-desc "A DrRacket theme")
