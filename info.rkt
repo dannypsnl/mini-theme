@@ -24,7 +24,9 @@
              #(242 80 65))))
           (name . "Mini"))))
 
+(define collection "mini-theme")
 (define deps '("base"))
 (define build-deps '("scribble-lib"))
 (define scribblings '(("scribblings/mini-theme.scrbl" ())))
 (define pkg-desc "A DrRacket theme")
+(define pkg-authors '(dannypsnl))
