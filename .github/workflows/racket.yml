@@ -1,20 +1,6 @@
 name: Racket
 
-on:
-  schedule:
-    - cron: "0 9 * * *"
-  push:
-    branches:
-    - '*'
-    paths:
-    - '**.rkt'
-    - '**.scrbl'
-  pull_request:
-    branches:
-    - '*'
-    paths:
-    - '**.rkt'
-    - '**.scrbl'
+on: [ push, pull_request ]
 
 jobs:
   test:
